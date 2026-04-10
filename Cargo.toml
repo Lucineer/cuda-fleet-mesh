@@ -1,0 +1,8 @@
+[package]
+name = "cuda-fleet-mesh"
+version = "0.1.0"
+edition = "2021"
+description = "Fleet mesh networking — service discovery, health checking, load balancing, and topology for agent fleets"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
