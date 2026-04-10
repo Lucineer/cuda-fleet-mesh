@@ -2,7 +2,7 @@
 name = "cuda-fleet-mesh"
 version = "0.1.0"
 edition = "2021"
-description = "Fleet mesh — 5 topologies, health checks, gossip protocol"
+description = "Fleet mesh with 5 topologies and gossip protocol"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-fleet-mesh"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
